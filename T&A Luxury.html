@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)https://www.taluxury.com/#asia -->
+<html class="nie js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="ru" style=""><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}
+</style><style type="text/css">.gm-control-active img{box-sizing:content-box}.gm-control-active:hover img:nth-child(1),.gm-control-active:active img:nth-child(1),.gm-control-active:active img:nth-child(2){display:none}
+</style><link type="text/css" rel="stylesheet" href="./T&amp;A Luxury_files/css"><style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px;box-sizing:border-box}
+</style><style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style type="text/css">.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+</style>
+        
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Travel Company">
+        <meta name="author" content="IP:9 Studio">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">      
+
+        <title>T&amp;A Luxury</title>
+
+         <!-- Google Fonts -->
+        <link href="./T&amp;A Luxury_files/css(1)" rel="stylesheet" type="text/css">
+		<link href="./T&amp;A Luxury_files/css(2)" rel="stylesheet" type="text/css">
+        <!-- Bootstrap core CSS -->
+        <link href="./T&amp;A Luxury_files/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Owl Carousel CSS -->
+        <link href="./T&amp;A Luxury_files/owl.carousel.css" rel="stylesheet">
+        <link href="./T&amp;A Luxury_files/owl.theme.default.min.css" rel="stylesheet">
+
+        <!-- Icon CSS -->
+        <link href="./T&amp;A Luxury_files/font-awesome.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link rel="stylesheet" href="MYcss.css">          <!--  LAST CSS FILE -->
+        <link href="./T&amp;A Luxury_files/style.css" rel="stylesheet">
+ <!-- map styles  -->
+    <link rel="stylesheet" type="text/css" href="cssmap-continents/cssmap-continents.css" media="screen" />
+	 <!-- end map st -->	
+	<link href="./T&amp;A Luxury_files/font-awesome.min(1).css" rel="stylesheet">
+         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQ64tT0iPJXOtwLU3GniPuWseCATlmhaE"></script>
+		  <script src="./T&amp;A Luxury_files/modernizr.min.js"></script>
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+        <!--[if lt IE 9]>
+          <script src="js/html5shiv.js"></script>
+          <script src="js/respond.min.js"></script>
+        <![endif]-->
+	
+	<script>
+	
+window.onload = function()
+{
+    document.getElementById('bottom').scrollIntoView(true);
+	document.getElementById("sticky-nav").style.display="block";
+}
+
+
+	function AjaxFormRequest(result_id,formMain,url) {
+
+ jQuery.ajax({
+ url: url,
+ type: "POST",
+ dataType: "html",
+ data: jQuery("#"+formMain).serialize(),
+ success: function(response) {
+
+ if(formMain=="formMain1" && document.getElementById('applicationName1').value !="" && document.getElementById('applicationTelephone1').value !="" && document.getElementById('applicationEmail1').value !="" ){document.getElementById('send1').style.display="none";
+  document.getElementById(result_id).style.display="block";
+ document.getElementById(result_id).innerHTML = response;
+ $(':input','#'+formMain+'')
+ .not(':button, :submit, :reset, :hidden')
+ .val('')
+ .removeAttr('checked')
+ .removeAttr('selected');
+ }
+ if(formMain=="formMain" && document.getElementById('applicationName2').value !="" && document.getElementById('applicationTelephone2').value !=""){
+ document.getElementById('send2').style.display="none"; 
+ document.getElementById(result_id).style.display="block";
+ document.getElementById(result_id).innerHTML = response;
+ $(':input','#'+formMain+'')
+ .not(':button, :submit, :reset, :hidden')
+ .val('')
+ .removeAttr('checked')
+ .removeAttr('selected');
+ }
+ if(formMain=="formMain3" && document.getElementById('applicationName3').value !="" && document.getElementById('applicationTelephone3').value !=""){
+ document.getElementById('send3').style.display="none";
+  document.getElementById(result_id).style.display="block";
+ document.getElementById(result_id).innerHTML = response;
+ $(':input','#'+formMain+'')
+ .not(':button, :submit, :reset, :hidden')
+ .val('')
+ .removeAttr('checked')
+ .removeAttr('selected');
+ }
+ },
+ error: function(response) {
+ document.getElementById(result_id).innerHTML = "Возникла ошибка при отправке формы. Попробуйте еще раз";
+ }
+ });
+
+
+ 
+ 
+ }
+</script>
+   
+<style>
+
+.nav-link:hover {
+  background: #2E2C7E;
+}
+
+
+</style>
+ 
+ 
+<script type="text/javascript" charset="UTF-8" src="./T&amp;A Luxury_files/common.js"></script><script type="text/javascript" charset="UTF-8" src="./T&amp;A Luxury_files/util.js"></script><script type="text/javascript" charset="UTF-8" src="./T&amp;A Luxury_files/map.js"></script><script type="text/javascript" charset="UTF-8" src="./T&amp;A Luxury_files/marker.js"></script><style type="text/css">.gm-style {
+        font: 400 11px Roboto, Arial, sans-serif;
+        text-decoration: none;
+      }
+      .gm-style img { max-width: none; }</style><script type="text/javascript" charset="UTF-8" src="./T&amp;A Luxury_files/onion.js"></script><script type="text/javascript" charset="UTF-8" src="./T&amp;A Luxury_files/stats.js"></script><script type="text/javascript" charset="UTF-8" src="./T&amp;A Luxury_files/controls.js"></script></head>
+
+    <body data-spy="scroll" data-target="#navbar-menu" style="">
+<div id="bottom"></div>
+	<script>
+ function initialize()
+ { 
+
+
+		var myLatLng = {lat: 50.266496, lng: 28.685916};
+
+        var map = new google.maps.Map(document.getElementById('map_canvas'), {
+          zoom: 16,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Приезжайте в гости! ул. Киевская 77 (ТЦ "Глобал")'
+        });
+
+		
+		
+	}
+	
+
+
+ </script>
+ 
+ 	
+        <!-- Navbar -->
+
+		
+        <div id="sticky-nav-sticky-wrapper" class="sticky-wrapper is-sticky" style="height: 149px;"><div class="navbar navbar-custom sticky navbar-fixed-top" role="navigation" style="display: block; position: fixed; top: 0px;" id="sticky-nav">
+            <div class="container">
+
+                <!-- Navbar-header -->
+                <div class="navbar-header">
+
+                    <!-- Responsive menu button -->
+                    <button id="oldmenu" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Навигация</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+ 
+                       <!-- LOGO -->
+                    <a class="navbar-brand logo" style="margin-top:10px; padding:0px;" href="https://www.taluxury.com/">
+                   <span><img id="logoimg" src="./T&amp;A Luxury_files/logo3.png"></span>  
+					 </a>    
+					 
+                      <div class="navbar2"> 
+					<img id="nameimg2" src="./T&amp;A Luxury_files/travelCompany.png">
+					  
+					  <nav id="nav-bl">
+  <input type="checkbox" id="btn-menu">
+  <label for="btn-menu"></label>
+
+  <ul class="list-menu">
+   
+    <li class="active">
+                            <button onclick="gooTo(&#39;#home&#39;);" id="lhome" class="nav-link">Главная</button>
+                        </li>
+                        <li>
+                            <button onclick="gooTo(&#39;#features&#39;);" id="lfeatures" class="nav-link">Карта путешествий</button>
+                        </li>
+                        <li>
+                            <button onclick="gooTo(&#39;#pricing&#39;);" id="lpricing" class="nav-link">Акция дня</button>
+                        </li>
+                        <li>
+                            <button onclick="gooTo(&#39;#clients&#39;);" id="lclients" class="nav-link">Отзывы</button>
+                        </li>
+                        <li>
+                            <button onclick="gooTo(&#39;#contacts&#39;);" id="lcontacts" class="nav-link">Контакты</button>
+                        </li>
+                          
+  </ul>
+</nav>
+					  
+					  </div>
+              
+
+                </div>
+                <!-- end navbar-header -->
+
+						
+		
+
+
+				
+				
+				
+                <!-- menu -->
+                <div class="navbar-collapse collapse" id="navbar-menu">
+
+                    <!-- Navbar left -->
+                    <ul style="margin-top:25px;margin-left:0px;" class="nav navbar-nav navbar-left">
+                    <h2 class="font-light text-center"><img id="nameimg" src="./T&amp;A Luxury_files/travelCompany.png"></h2>
+					   
+					   <li class="active">
+                            <button onclick="gooTo(&#39;#home&#39;);" id="lhome" class="nav-link">Главная</button>
+                        </li>
+                        <li>
+                            <button onclick="gooTo(&#39;#features&#39;);" id="lfeatures" class="nav-link">Карта путешествий</button>
+                        </li>
+                        <li>
+                            <button onclick="gooTo(&#39;#pricing&#39;);" id="lpricing" class="nav-link">Акция дня</button>
+                        </li>
+                        <!-- <li>
+                            <button onclick="gooTo(&#39;#clients&#39;);" id="lclients" class="nav-link">Отзывы</button>
+                        </li> -->
+                        <li>
+                            <button onclick="gooTo(&#39;#contacts&#39;);" id="lcontacts" class="nav-link">Контакты</button>
+                        </li>
+                          
+                    </ul>
+  <div class="navbar-nav navbar-right">
+    
+  <div style="color:white; margin-top:30px;">
+	<h4 class="font-light text-white s15"><a href="tel:+380 965 098 196" >+38(096)509 81 96</a></h4>
+	<h4 class="font-light text-white s15">Пн-Вс с 10:00 до 19:00</h4>
+  </div>
+  </div>
+                </div>
+                <!--/Menu -->
+            </div>
+            <!-- end container -->
+        </div></div>
+        <!-- End navbar-custom -->
+
+        <!-- HOME -->
+        <section class="home bg-img-1" id="home">
+            <div class="bg-overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <div class="home-fullscreen">
+                            <div class="full-screen">
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END HOME -->
+
+
+           
+
+	
+ <!-- end container -->	 
+	 	
+  
+			   
+    <!-- Карусель -->
+    <div id="myCarousel" class="carousel slide" data-interval="4000" data-ride="carousel">
+      <!-- Индикаторы для карусели -->
+      <ol class="carousel-indicators">
+        <!-- Перейти к 0 слайду карусели с помощью соответствующего индекса data-slide-to="0" -->
+        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+        <!-- Перейти к 1 слайду карусели с помощью соответствующего индекса data-slide-to="1" -->
+        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+        <!-- Перейти к 2 слайду карусели с помощью соответствующего индекса data-slide-to="2" -->
+        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+		 <!-- Перейти к 2 слайду карусели с помощью соответствующего индекса data-slide-to="2" -->
+        <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+		 <!-- Перейти к 2 слайду карусели с помощью соответствующего индекса data-slide-to="2" -->
+        <li data-target="#myCarousel" data-slide-to="4" class=""></li>
+		  <li data-target="#myCarousel" data-slide-to="5" class=""></li>
+		    <li data-target="#myCarousel" data-slide-to="6" class=""></li>
+			  <li data-target="#myCarousel" data-slide-to="7" class=""></li>
+			    <li data-target="#myCarousel" data-slide-to="8" class=""></li>
+				  <li data-target="#myCarousel" data-slide-to="9" class=""></li>
+				    <li data-target="#myCarousel" data-slide-to="10" class=""></li>
+						    <li data-target="#myCarousel" data-slide-to="11" class="active"></li>
+		 
+      </ol>   
+	<div class="container">	
+	<div class="row">
+ <div style="" class="form1">
+  
+  <div class="main">
+                 
+		<form id="formMain1" action="https://www.taluxury.com/form.php" method="POST" name="application">
+			<input name="name1" class="applicationName" id="applicationName1" maxlength="20" placeholder="Введите ваше имя*" required="">
+			<input name="mail" type="email" class="applicationEmail" id="applicationEmail1" maxlength="20" placeholder="Введите ваш E-mail">
+			<input name="phone1" type="Tel" class="applicationTelephone" id="applicationTelephone1" maxlength="20" placeholder="Введите ваш телефон*" required="">
+			 <div style="color:#7FFFD4;margin-top:30px;font-size: 100%; display:none;" id="messegeResult1"></div>
+			<button id="send1" onclick="AjaxFormRequest(&#39;messegeResult1&#39;, &#39;formMain1&#39;, &#39;form.php&#39;);" class="applicationButton" type="submit" form="application">Подобрать тур!</button>
+			</form>
+	</div>
+       
+  </div>
+  </div>
+  </div> <!-- end container -->	    
+      <!-- Слайды карусели -->
+      <div class="carousel-inner">
+        <!-- Слайды создаются с помощью контейнера с классом item, внутри которого помещается содержимое слайда -->
+        <div class="item">
+		  <img src="./T&amp;A Luxury_files/S1.jpg"> 
+          <div class="carousel-caption">
+          <h2>Отдых на море!</h2>
+          </div>
+
+        </div>
+        <!-- Слайд №2 -->
+        <div class="item">
+		<img src="./T&amp;A Luxury_files/S2.jpg"> 
+         
+         <div class="carousel-caption">
+            <h2>Отдых в Европе</h2>
+          </div>
+        </div>
+        <!-- Слайд №3 -->
+        <div class="item">
+		
+		  <img src="./T&amp;A Luxury_files/Острова.jpg"> 
+          <div class="carousel-caption">
+             <h2>Отдых на островах</h2>
+          </div>
+        </div>
+		 <!-- Слайд №4 -->
+        <div class="item">
+		       
+		  <img src="./T&amp;A Luxury_files/круизы.jpg"> 
+          <div class="carousel-caption">
+            <h2>Круизы</h2>
+          </div>
+        </div>
+		 <!-- Слайд №5 -->
+        <div class="item">
+		        
+		  <img src="./T&amp;A Luxury_files/S5.jpg"> 
+          <div class="carousel-caption">
+           <h2>Отдых в Египте</h2>
+          </div>
+        </div>
+		     <div class="item">
+		        
+		  <img src="./T&amp;A Luxury_files/турция.jpg"> 
+          <div class="carousel-caption">
+           <h2>Отдых в Турции</h2>
+          </div>
+        </div>
+		<div class="item">
+		        
+		  <img src="./T&amp;A Luxury_files/экскурсии.jpg"> 
+          <div class="carousel-caption">
+           <h2>Экскурсионные туры</h2>
+          </div>
+        </div>
+		<div class="item">
+		        
+		  <img src="./T&amp;A Luxury_files/раннеебронирование.jpg"> 
+          <div class="carousel-caption">
+           <h2>Раннее бронирование</h2>
+          </div>
+        </div>
+			<div class="item">
+		        
+		  <img src="./T&amp;A Luxury_files/авиаперелеты.jpg"> 
+          <div class="carousel-caption">
+           <h2>Авиаперелеты</h2>
+          </div>
+        </div>
+		<div class="item">
+		        
+		  <img src="./T&amp;A Luxury_files/бронированиеотеля.jpg"> 
+          <div class="carousel-caption">
+           <h2>Выбор и бронирование отелей</h2>
+          </div>
+        </div>
+			<div class="item">
+		        
+		  <img src="./T&amp;A Luxury_files/luxury.jpg"> 
+          <div class="carousel-caption">
+           <h2>Luxury предложения</h2>
+          </div>
+        </div>
+			<div class="item active">
+		        
+		  <img src="./T&amp;A Luxury_files/экзотика.jpg"> 
+          <div class="carousel-caption">
+           <h2>Экзотика</h2>
+          </div>
+        </div>
+      </div>
+      <!-- Навигация для карусели -->
+      <!-- Кнопка, осуществляющая переход на предыдущий слайд с помощью атрибута data-slide="prev" -->
+      <a class="carousel-control left" href="https://www.taluxury.com/#myCarousel" data-slide="prev">
+      &lt;
+      </a>
+     <!--  Кнопка, осуществляющая переход на следующий слайд с помощью атрибута data-slide="next" -->
+        <a style="z-index:800" class="carousel-control right" href="https://www.taluxury.com/#myCarousel" data-slide="next">
+		&gt;
+      </a> 
+    </div>
+	
+              	
+        <!-- Features -->
+        <section class="section" style="padding-bottom: 0px;" id="features">
+             <div class="container">	
+			 <div class="row">
+				<h1>Карта путешествий</h1>
+				
+				 </div> <!-- end row -->
+			  <div class="row">
+                   <!-- World map containter. Width and height can be set here -->
+ <!--[if lt IE 9 ]><div id="ie-error">К сожалению, Ваш браузер не поддерживает работу с такими картами. Скачайте современный браузер!</div><![endif]-->
+<div id="box2" style="" class="form2">
+		<div class="main2">
+       
+			<div id="imggroup">
+				<div style="color:white;" id="selname">Направление не выбрано</div>
+				<img id="selimg" src="./T&amp;A Luxury_files/noselect.jpg"> 
+					<div style="color:white;" id="selprice"></div>
+			</div>
+      
+		<form id="formMain" action="form.php" method="POST" name="application2">
+			<input name="name2" class="applicationName" id="applicationName2" maxlength="20" placeholder="Введите ваше имя" required="">
+			<input name="phone" type="Tel" class="applicationTelephone" id="applicationTelephone2" maxlength="20" placeholder="Введите ваш телефон" required="">
+			 <div style="color:#7FFFD4;margin-top:30px;font-size: 100%; display:none;" id="messegeResult2"></div>
+			 <input type="hidden" id="direct" name="f2" value="">
+		<button id="send2" onclick="AjaxFormRequest(&#39;messegeResult2&#39;, &#39;formMain&#39;, &#39;form.php&#39;);" class="applicationButton" type="submit" form="application2">Хочу!</button>
+		</form>
+			</div>
+</div>      <!-- MAP -->
+
+     </div> <!-- end row -->
+
+            </div> <!-- end container -->
+        </section>
+	<div style="background:#EDFFFF;">	
+	
+      <div id="display-map" class="display-demo-map">
+        <!-- CSSMap - Continents style="background:#9FEDFF;"-->
+<div style="background: rgb(237, 255, 255); height: auto;" id="map-continents" class="cssmap-container cssmap-960">
+ <ul class="continents cssmap">
+  <li class="c1"><a href="#africa">Африка</a></li>
+  <li class="c2"><a href="#asia">Азия</a></li>
+  <li class="c3"><a href="#australia">Австралия</a></li>
+  <li class="c4"><a href="#europe">Европа</a></li>
+  <li class="c5"><a href="#north-america">Северная Америка</a></li>
+  <li class="c6"><a href="#south-america">Южная Америка</a></li>
+ </ul>
+<span class="cssmap-loader" style="left: 480px; margin-left: -46px; margin-top: -13px; top: 253px; display: none;">Loading ...</span></div>
+ </div>
+ 
+  </div>
+      <!-- END OF THE MAP -->
+
+         
+        <!-- end Features -->
+
+ <!-- PRICING -->
+        <section class="section" style="padding-bottom: 0px;" id="pricing">
+            <div class="container">
+	             <div class="row">
+				<h1>Акция дня</h1>
+               <div class="col-sm-4 text-center">
+					<img id="daysale" style="width:100%" src="./T&amp;A Luxury_files/cf505675e7d5.jpg"> 
+				
+				</div>
+				
+				<div class="col-sm-4 text-center">
+					
+				 <h5 style="color:#10044B; font-size:20px;" class="text-center">
+				   Путешествие — передвижение по какой-либо территории или акватории с целью их изучения, а также с общеобразовательными, познавательными, спортивными и другими целями.				</h5>
+				<p style="color:#140464; font-size:15px;">
+				   До XIX века путешествия были одним из основных источников получения сведений о тех или иных странах (их природе, населении, истории, хозяйстве), общем характере и очертании поверхности Земли.				</p>
+
+				</div>				
+				<div class="col-sm-4 text-center">
+				<div class="main3">
+       		 		
+				
+		<form id="formMain3" action="https://www.taluxury.com/form.php" method="POST" name="application3">
+			<input name="name3" class="applicationName" id="applicationName3" maxlength="20" placeholder="Введите ваше имя" required="">
+			<input name="phone3" type="Tel" class="applicationTelephone" id="applicationTelephone3" maxlength="20" placeholder="Введите ваш телефон" required="">
+			 <div style="color:#7FFFD4;margin-top:30px;font-size: 100%; display:none;" id="messegeResult3"></div>
+			<button id="send3" onclick="AjaxFormRequest(&#39;messegeResult3&#39;, &#39;formMain3&#39;, &#39;form.php&#39;);" class="applicationButton" type="submit" form="application3">Узнать детали!</button>
+		</form>
+			</div>
+				</div>
+             </div> <!-- end row -->
+
+
+                     
+
+            </div> <!-- end container -->
+        </section>
+        <!-- End Pricing -->
+		
+    <div class="container">
+ <div id="info2" class="row">
+
+                        <div style="float: left;" class="features-box">
+                            <i onclick="alert(&#39;Хочешь стать одним из них? Позвони нам!&#39;);" class="fa fa-smile-o"></i>
+                            <h4>Более 5000 довольных клиентов</h4>
+                            <!-- <p class="text-muted">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p> -->
+                        </div>
+                
+
+                 
+                        <div style="float: left;" class="features-box">
+                            <i class="fa fa-percent"></i>
+                            <h4>Акции и бонусы</h4>
+                            <!-- <p class="text-muted">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin litera..</p> -->
+                        </div>
+                
+
+                  
+                        <div style="float: left;" class="features-box">
+                            <i class="fa fa-user"></i>
+                            <h4>76% клиентов приходят по рекомендации</h4>
+                           <!--  <p class="text-muted">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p> -->
+                        </div>
+                    
+
+ </div> <!-- end row -->
+ <div id="info1" class="row">
+
+                        <div style="float: left;" class="features-box">
+                            <i class="fa fa-calendar-check-o"></i>
+                            <h4>15 лет туристического опыта</h4>
+                            <!-- <p class="text-muted">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p> -->
+                        </div>
+                  
+
+                   
+                        <div style="float: left;" class="features-box">
+                            <i class="fa fa-plane"></i>
+                            <h4>Посетили 57 стран</h4>
+                            <!-- <p class="text-muted">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin litera..</p> -->
+                        </div>
+                 
+
+                        <div style="float: left;" class="features-box">
+                            <i class="fa fa-balance-scale"></i>
+                            <h4>Проинспектировали 523 отеля</h4>
+                           <!--  <p class="text-muted">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p> -->
+                        </div>
+               
+
+ </div> <!-- end row --> 
+   </div> <!-- end container -->      
+<!-- Clients -->
+
+        <!-- <section class="section p-t-0" id="clients">
+            <div class="container">
+                <div class="row">
+                <h1>Отзывы</h1>
+				<a href="https://www.youtube.com/channel/UCq-33uKjxsCa3x2-0-UW-rg" class="text-muted">Больше отзывов на нашем Youtube канале!</a>
+                </div>
+                <!-- end row -->
+ <!-- Testimonials section ./images/video.png-->
+              
+           
+           <div class="row" style="">
+   <div id="helloimg" onclick="StartHello();" title="Нажмите, чтбы посмотреть приветствие!" style="display: none;"> 
+     <img style="width: 100%;" title="Нажмите, чтбы посмотреть приветствие!" src="./T&amp;A Luxury_files/video.png"> 
+</div>   
+	
+	<div class="col-md-12" id="video12">
+	
+  <iframe id="videof" style="display: block;" src="./T&amp;A Luxury_files/RHOM4kBOwW4.html" allowfullscreen="" frameborder="0"></iframe>
+<div>
+<img src="./T&amp;A Luxury_files/1.jpg" tabindex="2">
+<img src="./T&amp;A Luxury_files/1(1).jpg" tabindex="3">
+<img src="./T&amp;A Luxury_files/1(2).jpg" tabindex="4">
+
+</div>
+	
+</div> 
+
+	<script>
+	function StartHello()
+	{
+	document.getElementById('videof').style.display="block";	
+	document.getElementById('helloimg').style.display="none";
+	var  IFRAME = document.querySelector('#video12 iframe');
+	IFRAME.src = 'http://www.youtube.com/embed/RHOM4kBOwW4?rel=0&autoplay=1';
+	}
+var IMG = document.querySelectorAll('#video12 img'),
+    IFRAME = document.querySelector('#video12 iframe');
+for (var i = 0; i < IMG.length; i++) {
+  IMG[i].onclick = function() {
+    var idIMG = this.src.replace(/http...img.youtube.com.vi.([\s\S]*?).1.jpg/g, '$1');
+    IFRAME.src = 'http://www.youtube.com/embed/' + idIMG + '?rel=0&autoplay=1';
+    if(this.dataset.end) IFRAME.src = IFRAME.src.replace(/([\s\S]*)/g, '$1&end=' + this.dataset.end);
+    if(this.dataset.start) IFRAME.src = IFRAME.src.replace(/([\s\S]*)/g, '$1&start=' + this.dataset.start);
+    this.style.backgroundColor='#555';
+	document.getElementById('videof').style.display="block";
+  }
+}
+</script>				 
+					 
+	
+            </div>
+			</div> <!-- end container -->      
+        </section> -->
+        <!--End  Clients --
+
+   <!-- Features Alt -->
+        <section class="section p-t-0" style="padding-bottom: 0px;" id="contacts">
+    <div class="container">     <div class="row">
+                    <h1 style="margin-top: 0px;">Наши контакты</h1>  
+				 <div id="companyinfo" class="col-sm-4 text-left" style="width:30%;">
+             	  <h4 style="color:#140464;" class="text-left">О компании</h4>
+<h5 style="color:#140464; font-size:15px;  font-family: &#39;PT Sans&#39;, sans-serif;">					
+- 15 лет туристического опыта<br>
+- посетили 57 стран<br>
+- проинспектировали 523 отеля<br>
+- более 5000 довольных туристов<br>
+- нам есть чем с Вами поделиться<br>
+- 24/7<br>
+- акции и бонусы<br>
+- тур под ключ<br>
+- академия T&amp;A <br>
+- 76% клиентов приходят по рекомендации<br>
+Нас любят и нам доверяют</h5>
+                </div> 
+ 
+                <div id="map_cont" class="col-sm-4" style="width:40%;">
+	<div style="position: relative; overflow: hidden;" id="map_canvas"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div class="gm-style" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;"><div tabindex="0" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: pan-x pan-y;"><div style="z-index: 1; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px, 0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 1; transform: matrix(1, 0, 0, 1, -121, -131);"><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: -1;"><div style="position: absolute; z-index: 1; transform: matrix(1, 0, 0, 1, -121, -131);"><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 256px;"></div></div></div><div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: -14px; top: -43px; z-index: 0;"><img alt="" src="./T&amp;A Luxury_files/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 1; transform: matrix(1, 0, 0, 1, -121, -131);"><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px;"><img draggable="false" alt="" aria-hidden="true" src="./T&amp;A Luxury_files/vt" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px;"><img draggable="false" alt="" aria-hidden="true" src="./T&amp;A Luxury_files/vt(1)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px;"><img draggable="false" alt="" aria-hidden="true" src="./T&amp;A Luxury_files/vt(2)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px;"><img draggable="false" alt="" aria-hidden="true" src="./T&amp;A Luxury_files/vt(3)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px;"><img draggable="false" alt="" aria-hidden="true" src="./T&amp;A Luxury_files/vt(4)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px;"><img draggable="false" alt="" aria-hidden="true" src="./T&amp;A Luxury_files/vt(5)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px;"><img draggable="false" alt="" aria-hidden="true" src="./T&amp;A Luxury_files/vt(6)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px;"><img draggable="false" alt="" aria-hidden="true" src="./T&amp;A Luxury_files/vt(7)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: 256px; width: 256px; height: 256px;"><img draggable="false" alt="" aria-hidden="true" src="./T&amp;A Luxury_files/vt(8)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div></div><div style="z-index: 2; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; opacity: 0;" class="gm-style-pbc"><p class="gm-style-pbt"></p></div><div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; touch-action: pan-x pan-y;"><div style="z-index: 4; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px, 0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"><div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0; left: -14px; top: -43px; z-index: 0;"><img alt="" src="./T&amp;A Luxury_files/spotlight-poi2.png" draggable="false" usemap="#gmimap0" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap0" id="gmimap0"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" title="Приезжайте в гости! ул. Льва Толстого, 49  Офис - 99" style="cursor: pointer; touch-action: none;"></map></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div></div><iframe aria-hidden="true" frameborder="0" style="z-index: -1; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border: none;" src="./T&amp;A Luxury_files/saved_resource.html"></iframe><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a target="_blank" rel="noopener" href="https://maps.google.com/maps?ll=50.440442,30.498694&amp;z=18&amp;t=m&amp;hl=ru&amp;gl=US&amp;mapclient=apiv3" title="Нажмите, чтобы отобразить эту область в Картах Google" style="position: static; overflow: visible; float: none; display: inline;"><div style="width: 66px; height: 26px; cursor: pointer;"><img alt="" src="./T&amp;A Luxury_files/google4.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></div></a></div><div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 300px; height: 180px; position: absolute; left: 100px; top: 60px;"><div style="padding: 0px 0px 10px; font-size: 16px;">Картографические данные</div><div style="font-size: 13px;">Картографические данные © 2018 Google</div><div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 12px; z-index: 10000; cursor: pointer;"><img alt="" src="./T&amp;A Luxury_files/mapcnt6.png" draggable="false" style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div><div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 127px; bottom: 0px; width: 208px;"><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="text-decoration: none; cursor: pointer; display: none;">Картографические данные</a><span style="">Картографические данные © 2018 Google</span></div></div></div><div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;"><div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Картографические данные © 2018 Google</div></div><div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a href="https://www.google.com/intl/ru_US/help/terms_maps.html" target="_blank" rel="noopener" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Условия использования</a></div></div><button draggable="false" title="Включить полноэкранный режим" aria-label="Включить полноэкранный режим" type="button" class="gm-control-active gm-fullscreen-control" style="background: none rgb(255, 255, 255); border: 0px; margin: 10px; padding: 0px; position: absolute; cursor: pointer; user-select: none; border-radius: 2px; height: 40px; width: 40px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; overflow: hidden; top: 0px; right: 0px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%20018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px; margin: 11px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px; margin: 11px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px; margin: 11px;"></button><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px; display: none; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_blank" rel="noopener" title="Сообщить об ошибке на карте или снимке" href="https://www.google.com/maps/@50.440442,30.498694,18z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;">Сообщить об ошибке на карте</a></div></div><div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" draggable="false" controlwidth="40" controlheight="153" style="margin: 10px; user-select: none; position: absolute; bottom: 167px; right: 40px;"><div class="gmnoprint" controlwidth="40" controlheight="81" style="position: absolute; left: 0px; top: 72px;"><div draggable="false" style="user-select: none; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 40px; height: 81px;"><button draggable="false" title="Увеличить" aria-label="Увеличить" type="button" class="gm-control-active" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px; margin: 9px 11px 13px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23333%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px; margin: 9px 11px 13px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23111%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px; margin: 9px 11px 13px;"></button><div style="position: relative; overflow: hidden; width: 30px; height: 1px; margin: 0px 5px; background-color: rgb(230, 230, 230); top: 0px;"></div><button draggable="false" title="Уменьшить" aria-label="Уменьшить" type="button" class="gm-control-active" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px; margin: 13px 11px 9px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px; margin: 13px 11px 9px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px; margin: 13px 11px 9px;"></button></div></div><div class="gm-svpc" controlwidth="40" controlheight="40" style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; width: 40px; height: 40px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: none; position: absolute; left: 0px; top: 0px;"><div style="position: absolute; left: 50%; top: 50%;"></div><div style="position: absolute; left: 50%; top: 50%;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2223%22%20height%3D%2238%22%20viewBox%3D%220%200%2023%2038%22%3E%0A%3Cpath%20d%3D%22M16.6%2C38.1h-5.5l-0.2-2.9-0.2%2C2.9h-5.5L5%2C25.3l-0.8%2C2a1.53%2C1.53%2C0%2C0%2C1-1.9.9l-1.2-.4a1.58%2C1.58%2C0%2C0%2C1-1-1.9v-0.1c0.3-.9%2C3.1-11.2%2C3.1-11.2a2.66%2C2.66%2C0%2C0%2C1%2C2.3-2l0.6-.5a6.93%2C6.93%2C0%2C0%2C1%2C4.7-12%2C6.8%2C6.8%2C0%2C0%2C1%2C4.9%2C2%2C7%2C7%2C0%2C0%2C1%2C2%2C4.9%2C6.65%2C6.65%2C0%2C0%2C1-2.2%2C5l0.7%2C0.5a2.78%2C2.78%2C0%2C0%2C1%2C2.4%2C2s2.9%2C11.2%2C2.9%2C11.3a1.53%2C1.53%2C0%2C0%2C1-.9%2C1.9l-1.3.4a1.63%2C1.63%2C0%2C0%2C1-1.9-.9l-0.7-1.8-0.1%2C12.7h0Zm-3.6-2h1.7L14.9%2C20.3l1.9-.3%2C2.4%2C6.3%2C0.3-.1c-0.2-.8-0.8-3.2-2.8-10.9a0.63%2C0.63%2C0%2C0%2C0-.6-0.5h-0.6l-1.1-.9h-1.9l-0.3-2a4.83%2C4.83%2C0%2C0%2C0%2C3.5-4.7A4.78%2C4.78%200%200%2C0%2011%202.3H10.8a4.9%2C4.9%2C0%2C0%2C0-1.4%2C9.6l-0.3%2C2h-1.9l-1%2C.9h-0.6a0.74%2C0.74%2C0%2C0%2C0-.6.5c-2%2C7.5-2.7%2C10-3%2C10.9l0.3%2C0.1%2C2.5-6.3%2C1.9%2C0.3%2C0.2%2C15.8h1.6l0.6-8.4a1.52%2C1.52%2C0%2C0%2C1%2C1.5-1.4%2C1.5%2C1.5%2C0%2C0%2C1%2C1.5%2C1.4l0.9%2C8.4h0Zm-10.9-9.6h0Zm17.5-.1h0Z%22%20style%3D%22fill%3A%23333%3Bopacity%3A0.7%3Bisolation%3Aisolate%22%2F%3E%0A%3Cpath%20d%3D%22M5.9%2C13.6l1.1-.9h7.8l1.2%2C0.9%22%20style%3D%22fill%3A%23ce592c%22%2F%3E%0A%3Cellipse%20cx%3D%2210.9%22%20cy%3D%2213.1%22%20rx%3D%222.7%22%20ry%3D%220.3%22%20style%3D%22fill%3A%23ce592c%3Bopacity%3A0.5%3Bisolation%3Aisolate%22%2F%3E%0A%3Cpath%20d%3D%22M20.6%2C26.1l-2.9-11.3a1.71%2C1.71%2C0%2C0%2C0-1.6-1.2H5.7a1.69%2C1.69%2C0%2C0%2C0-1.5%2C1.3l-3.1%2C11.3a0.61%2C0.61%2C0%2C0%2C0%2C.3.7l1.1%2C0.4a0.61%2C0.61%2C0%2C0%2C0%2C.7-0.3l2.7-6.7%2C0.2%2C16.8h3.6l0.6-9.3a0.47%2C0.47%2C0%2C0%2C1%2C.44-0.5h0.06c0.4%2C0%2C.4.2%2C0.5%2C0.5l0.6%2C9.3h3.6L15.7%2C20.3l2.5%2C6.6a0.52%2C0.52%2C0%2C0%2C0%2C.66.31h0l1.2-.4a0.57%2C0.57%2C0%2C0%2C0%2C.5-0.7h0Z%22%20style%3D%22fill%3A%23fdbf2d%22%2F%3E%0A%3Cpath%20d%3D%22M7%2C13.6l3.9%2C6.7%2C3.9-6.7%22%20style%3D%22fill%3A%23cf572e%3Bopacity%3A0.6%3Bisolation%3Aisolate%22%2F%3E%0A%3Ccircle%20cx%3D%2210.9%22%20cy%3D%227%22%20r%3D%225.9%22%20style%3D%22fill%3A%23fdbf2d%22%2F%3E%0A%3C%2Fsvg%3E%0A" aria-label="Управление человечком в режиме просмотра улиц" style="width: 18px; height: 30px; position: absolute; left: -9px; top: -15px;"><img src="data:image/svg+xml,%3Csvg%20width%3D%2224px%22%20height%3D%2238px%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%2024%2038%22%3E%0A%3Cpath%20d%3D%22M22%2C26.6l-2.9-11.3a2.78%2C2.78%2C0%2C0%2C0-2.4-2l-0.7-.5a6.82%2C6.82%2C0%2C0%2C0%2C2.2-5%2C6.9%2C6.9%2C0%2C0%2C0-13.8%2C0%2C7%2C7%2C0%2C0%2C0%2C2.2%2C5.1l-0.6.5a2.55%2C2.55%2C0%2C0%2C0-2.3%2C2s-3%2C11.1-3%2C11.2v0.1a1.58%2C1.58%2C0%2C0%2C0%2C1%2C1.9l1.2%2C0.4a1.63%2C1.63%2C0%2C0%2C0%2C1.9-.9l0.8-2%2C0.2%2C12.8h11.3l0.2-12.6%2C0.7%2C1.8a1.54%2C1.54%2C0%2C0%2C0%2C1.5%2C1%2C1.09%2C1.09%2C0%2C0%2C0%2C.5-0.1l1.3-.4a1.85%2C1.85%2C0%2C0%2C0%2C.7-2h0Zm-1.2.9-1.2.4a0.61%2C0.61%2C0%2C0%2C1-.7-0.3l-2.5-6.6-0.2%2C16.8h-9.4L6.6%2C21l-2.7%2C6.7a0.52%2C0.52%2C0%2C0%2C1-.66.31h0l-1.1-.4a0.52%2C0.52%2C0%2C0%2C1-.31-0.66v0l3.1-11.3a1.69%2C1.69%2C0%2C0%2C1%2C1.5-1.3h0.2l1-.9h2.3a5.9%2C5.9%2C0%2C1%2C1%2C3.2%2C0h2.3l1.1%2C0.9h0.2a1.71%2C1.71%2C0%2C0%2C1%2C1.6%2C1.2l2.9%2C11.3a0.84%2C0.84%2C0%2C0%2C1-.4.7h0Z%22%20style%3D%22fill%3A%23333%3Bfill-opacity%3A0.2%22%2F%3E%22%0A%3C%2Fsvg%3E%0A%0A" aria-label="Человечек находится над картой" style="display: none; width: 18px; height: 30px; position: absolute; left: -9px; top: -15px;"><img src="data:image/svg+xml,%3Csvg%20width%3D%2240px%22%20height%3D%2250px%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%2040%2050%22%3E%0A%3Cpath%20d%3D%22M34.00%2C-30.40l-2.9-11.3a2.78%2C2.78%2C0%2C0%2C0-2.4-2l-0.7-.5a6.82%2C6.82%2C0%2C0%2C0%2C2.2-5%2C6.9%2C6.9%2C0%2C0%2C0-13.8%2C0%2C7%2C7%2C0%2C0%2C0%2C2.2%2C5.1l-0.6.5a2.55%2C2.55%2C0%2C0%2C0-2.3%2C2s-3%2C11.1-3%2C11.2v0.1a1.58%2C1.58%2C0%2C0%2C0%2C1%2C1.9l1.2%2C0.4a1.63%2C1.63%2C0%2C0%2C0%2C1.9-.9l0.8-2%2C0.2%2C12.8h11.3l0.2-12.6%2C0.7%2C1.8a1.54%2C1.54%2C0%2C0%2C0%2C1.5%2C1%2C1.09%2C1.09%2C0%2C0%2C0%2C.5-0.1l1.3-.4a1.85%2C1.85%2C0%2C0%2C0%2C.7-2h0Zm-1.2.9-1.2.4a0.61%2C0.61%2C0%2C0%2C1-.7-0.3l-2.5-6.6-0.2%2C16.8h-9.4L18.60%2C-36.00l-2.7%2C6.7a0.52%2C0.52%2C0%2C0%2C1-.66.31h0l-1.1-.4a0.52%2C0.52%2C0%2C0%2C1-.31-0.66v0l3.1-11.3a1.69%2C1.69%2C0%2C0%2C1%2C1.5-1.3h0.2l1-.9h2.3a5.9%2C5.9%2C0%2C1%2C1%2C3.2%2C0h2.3l1.1%2C0.9h0.2a1.71%2C1.71%2C0%2C0%2C1%2C1.6%2C1.2l2.9%2C11.3a0.84%2C0.84%2C0%2C0%2C1-.4.7h0Zm1.2%2C59.1-2.9-11.3a2.78%2C2.78%2C0%2C0%2C0-2.4-2l-0.7-.5a6.82%2C6.82%2C0%2C0%2C0%2C2.2-5%2C6.9%2C6.9%2C0%2C0%2C0-13.8%2C0%2C7%2C7%2C0%2C0%2C0%2C2.2%2C5.1l-0.6.5a2.55%2C2.55%2C0%2C0%2C0-2.3%2C2s-3%2C11.1-3%2C11.2v0.1a1.58%2C1.58%2C0%2C0%2C0%2C1%2C1.9l1.2%2C0.4a1.63%2C1.63%2C0%2C0%2C0%2C1.9-.9l0.8-2%2C0.2%2C12.8h11.3l0.2-12.6%2C0.7%2C1.8a1.54%2C1.54%2C0%2C0%2C0%2C1.5%2C1%2C1.09%2C1.09%2C0%2C0%2C0%2C.5-0.1l1.3-.4a1.85%2C1.85%2C0%2C0%2C0%2C.7-2h0Zm-1.2.9-1.2.4a0.61%2C0.61%2C0%2C0%2C1-.7-0.3l-2.5-6.6-0.2%2C16.8h-9.4L18.60%2C24.00l-2.7%2C6.7a0.52%2C0.52%2C0%2C0%2C1-.66.31h0l-1.1-.4a0.52%2C0.52%2C0%2C0%2C1-.31-0.66v0l3.1-11.3a1.69%2C1.69%2C0%2C0%2C1%2C1.5-1.3h0.2l1-.9h2.3a5.9%2C5.9%2C0%2C1%2C1%2C3.2%2C0h2.3l1.1%2C0.9h0.2a1.71%2C1.71%2C0%2C0%2C1%2C1.6%2C1.2l2.9%2C11.3a0.84%2C0.84%2C0%2C0%2C1-.4.7h0Z%22%20style%3D%22fill%3A%23333%3Bfill-opacity%3A0.2%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M15.40%2C38.80h-4a1.64%2C1.64%2C0%2C0%2C1-1.4-1.1l-3.1-8a0.9%2C0.9%2C0%2C0%2C1-.5.1l-1.4.1a1.62%2C1.62%2C0%2C0%2C1-1.6-1.4l-1.1-13.1%2C1.6-1.3a6.87%2C6.87%2C0%2C0%2C1-3-4.6A7.14%2C7.14%200%200%2C1%202%204a7.6%2C7.6%2C0%2C0%2C1%2C4.7-3.1%2C7.14%2C7.14%2C0%2C0%2C1%2C5.5%2C1.1%2C7.28%2C7.28%2C0%2C0%2C1%2C2.3%2C9.6l2.1-.1%2C0.1%2C1c0%2C0.2.1%2C0.5%2C0.1%2C0.8a2.41%2C2.41%2C0%2C0%2C1%2C1%2C1s1.9%2C3.2%2C2.8%2C4.9c0.7%2C1.2%2C2.1%2C4.2%2C2.8%2C5.9a2.1%2C2.1%2C0%2C0%2C1-.8%2C2.6l-0.6.4a1.63%2C1.63%2C0%2C0%2C1-1.5.2l-0.6-.3a8.93%2C8.93%2C0%2C0%2C0%2C.5%2C1.3%2C7.91%2C7.91%2C0%2C0%2C0%2C1.8%2C2.6l0.6%2C0.3v4.6l-4.5-.1a7.32%2C7.32%2C0%2C0%2C1-2.5-1.5l-0.4%2C3.6h0Zm-10-19.2%2C3.5%2C9.8%2C2.9%2C7.5h1.6V35l-1.9-9.4%2C3.1%2C5.4a8.24%2C8.24%2C0%2C0%2C0%2C3.8%2C3.8h2.1v-1.4a14%2C14%2C0%2C0%2C1-2.2-3.1%2C44.55%2C44.55%2C0%2C0%2C1-2.2-8l-1.3-6.3%2C3.2%2C5.6c0.6%2C1.1%2C2.1%2C3.6%2C2.8%2C4.9l0.6-.4c-0.8-1.6-2.1-4.6-2.8-5.8-0.9-1.7-2.8-4.9-2.8-4.9a0.54%2C0.54%2C0%2C0%2C0-.4-0.3l-0.7-.1-0.1-.7a4.33%2C4.33%2C0%2C0%2C0-.1-0.5l-5.3.3%2C2.2-1.9a4.3%2C4.3%2C0%2C0%2C0%2C.9-1%2C5.17%2C5.17%2C0%2C0%2C0%2C.8-4%2C5.67%2C5.67%2C0%2C0%2C0-2.2-3.4%2C5.09%2C5.09%2C0%2C0%2C0-4-.8%2C5.67%2C5.67%2C0%2C0%2C0-3.4%2C2.2%2C5.17%2C5.17%2C0%2C0%2C0-.8%2C4%2C5.67%2C5.67%2C0%2C0%2C0%2C2.2%2C3.4%2C3.13%2C3.13%2C0%2C0%2C0%2C1%2C.5l1.6%2C0.6-3.2%2C2.6%2C1%2C11.5h0.4l-0.3-8.2h0Z%22%20style%3D%22fill%3A%23333%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M3.35%2C15.90l1.1%2C12.5a0.39%2C0.39%2C0%2C0%2C0%2C.36.42l0.14%2C0%2C1.4-.1a0.66%2C0.66%2C0%2C0%2C0%2C.5-0.4l-0.2-3.8-3.3-8.6h0Z%22%20style%3D%22fill%3A%23fdbf2d%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M5.20%2C28.80l1.1-.1a0.66%2C0.66%2C0%2C0%2C0%2C.5-0.4l-0.2-3.8-1.2-3.1Z%22%20style%3D%22fill%3A%23ce592b%3Bfill-opacity%3A0.25%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M21.40%2C35.70l-3.8-1.2-2.7-7.8L12.00%2C15.5l3.4-2.9c0.2%2C2.4%2C2.2%2C14.1%2C3.7%2C17.1%2C0%2C0%2C1.3%2C2.6%2C2.3%2C3.1v2.9m-8.4-8.1-2-.3%2C2.5%2C10.1%2C0.9%2C0.4v-2.9%22%20style%3D%22fill%3A%23e5892b%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M17.80%2C25.40c-0.4-1.5-.7-3.1-1.1-4.8-0.1-.4-0.1-0.7-0.2-1.1l-1.1-2-1.7-1.6s0.9%2C5%2C2.4%2C7.1a19.12%2C19.12%2C0%2C0%2C0%2C1.7%2C2.4h0Z%22%20style%3D%22fill%3A%23cf572e%3Bopacity%3A0.6%3Bisolation%3Aisolate%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M14.40%2C37.80h-3a0.43%2C0.43%2C0%2C0%2C1-.4-0.4l-3-7.8-1.7-4.8-3-9%2C8.9-.4s2.9%2C11.3%2C4.3%2C14.4c1.9%2C4.1%2C3.1%2C4.7%2C5%2C5.8h-3.2s-4.1-1.2-5.9-7.7a0.59%2C0.59%2C0%2C0%2C0-.6-0.4%2C0.62%2C0.62%2C0%2C0%2C0-.3.7s0.5%2C2.4.9%2C3.6a34.87%2C34.87%2C0%2C0%2C0%2C2%2C6h0Z%22%20style%3D%22fill%3A%23fdbf2d%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M15.40%2C12.70l-3.3%2C2.9-8.9.4%2C3.3-2.7%22%20style%3D%22fill%3A%23ce592b%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M9.10%2C21.10l1.4-6.2-5.9.5%22%20style%3D%22fill%3A%23cf572e%3Bopacity%3A0.6%3Bisolation%3Aisolate%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M12.00%2C13.5a4.75%2C4.75%2C0%2C0%2C1-2.6%2C1.1c-1.5.3-2.9%2C0.2-2.9%2C0s1.1-.6%2C2.7-1%22%20style%3D%22fill%3A%23bb3d19%22%3E%3C%2Fpath%3E%0A%3Ccircle%20cx%3D%227.92%22%20cy%3D%228.19%22%20r%3D%226.3%22%20style%3D%22fill%3A%23fdbf2d%22%3E%3C%2Fcircle%3E%0A%3Cpath%20d%3D%22M4.70%2C13.60a6.21%2C6.21%2C0%2C0%2C0%2C8.4-1.9v-0.1a8.89%2C8.89%2C0%2C0%2C1-8.4%2C2h0Z%22%20style%3D%22fill%3A%23ce592b%3Bfill-opacity%3A0.25%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M21.20%2C27.20l0.6-.4a1.09%2C1.09%2C0%2C0%2C0%2C.4-1.3c-0.7-1.5-2.1-4.6-2.8-5.8-0.9-1.7-2.8-4.9-2.8-4.9a1.6%2C1.6%2C0%2C0%2C0-2.17-.65l-0.23.15a1.68%2C1.68%2C0%2C0%2C0-.4%2C2.1s2.3%2C3.9%2C3.1%2C5.3c0.6%2C1%2C2.1%2C3.7%2C2.9%2C5.1a0.94%2C0.94%2C0%2C0%2C0%2C1.24.49l0.16-.09h0Z%22%20style%3D%22fill%3A%23fdbf2d%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M19.40%2C19.80c-0.9-1.7-2.8-4.9-2.8-4.9a1.6%2C1.6%2C0%2C0%2C0-2.17-.65l-0.23.15-0.3.3c1.1%2C1.5%2C2.9%2C3.8%2C3.9%2C5.4%2C1.1%2C1.8%2C2.9%2C5%2C3.8%2C6.7l0.1-.1a1.09%2C1.09%2C0%2C0%2C0%2C.4-1.3%2C57.67%2C57.67%2C0%2C0%2C0-2.7-5.6h0Z%22%20style%3D%22fill%3A%23ce592b%3Bfill-opacity%3A0.25%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E%0A" aria-label="Управление человечком в режиме просмотра улиц" style="display: none; width: 32px; height: 40px; position: absolute; left: -18px; top: -18px;"></div></div><div class="gmnoprint" controlwidth="40" controlheight="40" style="display: none; position: absolute;"><div style="width: 40px; height: 40px;"><button draggable="false" title="Rotate map 90 degrees" aria-label="Rotate map 90 degrees" type="button" class="gm-control-active" style="background: none rgb(255, 255, 255); display: none; border: 0px; margin: 0px 0px 32px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 40px; height: 40px; top: 0px; left: 0px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 28px; width: 28px; margin: 6px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 28px; width: 28px; margin: 6px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 28px; width: 28px; margin: 6px;"></button><button draggable="false" title="Tilt map" aria-label="Tilt map" type="button" class="gm-tilt gm-control-active" style="background: none rgb(255, 255, 255); display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 40px; height: 40px; top: 0px; left: 0px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="width: 18px; height: 16px; margin: 12px 11px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="width: 18px; height: 16px; margin: 12px 11px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="width: 18px; height: 16px; margin: 12px 11px;"></button></div></div></div><div class="gmnoprint" style="margin: 10px; z-index: 0; position: absolute; cursor: pointer; left: 0px; top: 0px;"><div class="gm-style-mtc" style="float: left; position: relative;"><div role="button" tabindex="0" title="Показать карту с названиями объектов" aria-label="Показать карту с названиями объектов" aria-pressed="true" draggable="false" style="direction: ltr; overflow: hidden; text-align: center; height: 40px; display: table-cell; vertical-align: middle; position: relative; color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 0px 17px; border-bottom-left-radius: 2px; border-top-left-radius: 2px; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; min-width: 50px; font-weight: 500;">Карта</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; left: 0px; top: 40px; text-align: left; display: none;"><div draggable="false" title="Показать карту рельефа с названиями объектов" style="color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 6px 8px 6px 6px; direction: ltr; text-align: left; white-space: nowrap;"><span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;"><div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden; display: none;"><img alt="" src="./T&amp;A Luxury_files/imgs8.png" draggable="false" style="position: absolute; left: -52px; top: -44px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 68px; height: 67px;"></div></span><label style="vertical-align: middle; cursor: pointer;">Рельеф</label></div></div></div><div class="gm-style-mtc" style="float: left; position: relative;"><div role="button" tabindex="0" title="Показать спутниковую карту" aria-label="Показать спутниковую карту" aria-pressed="false" draggable="false" style="direction: ltr; overflow: hidden; text-align: center; height: 40px; display: table-cell; vertical-align: middle; position: relative; color: rgb(86, 86, 86); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 0px 17px; border-bottom-right-radius: 2px; border-top-right-radius: 2px; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; min-width: 71px; border-left: 0px;">Спутник</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; right: 0px; top: 40px; text-align: left; display: none;"><div draggable="false" title="Показать спутниковую карту с названиями объектов" style="color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 6px 8px 6px 6px; direction: ltr; text-align: left; white-space: nowrap;"><span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;"><div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden;"><img alt="" src="./T&amp;A Luxury_files/imgs8.png" draggable="false" style="position: absolute; left: -52px; top: -44px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 68px; height: 67px;"></div></span><label style="vertical-align: middle; cursor: pointer;">Названия объектов</label></div></div></div></div></div></div></div>				
+				</div>
+				
+				<div id="companyinfo2" class="col-sm-4 text-right" style="width:30%;">
+                <h4 style="color:#140464;" class="text-right">  Приезжайте к нам в гости!</h4>  
+<h5 style="color:#140464; font-size:15px;  font-family: &#39;PT Sans&#39;, sans-serif;">	
+010332 г. Житомир<br>
+ул. Киевская 77 (ТЦ "Глобал")<br>
+<br><br>
+
++380 965 098 196<br><br>
+Пн-Вс с 10:00 до 19:00<br><br>
+<a href="mailto:info@taluxury.com">info@taluxury.com</a><br>
+
+</h5>				
+                </div>
+
+           </div><!-- end row -->
+
+            </div> <!-- end container -->
+        </section>
+      
+
+	  <!-- end features alt -->
+ 
+        <!-- End Testimonials section -->
+ <section class="section" style="padding-top:50px; padding-bottom: 10px;">
+ <div class="container">
+ <div class="row">
+ 
+ <div class="col-sm-2 text-center">
+<img id="selimg" style="width:100%" src="./T&amp;A Luxury_files/1(3).jpg"> 
+  </div>
+ <div class="col-sm-2 text-center">
+ <img id="selimg" style="width:100%" src="./T&amp;A Luxury_files/2.jpg">
+  </div>
+  <div class="col-sm-2 text-center">
+<img id="selimg" style="width:100%" src="./T&amp;A Luxury_files/3.jpg">
+  </div>
+   <div class="col-sm-2 text-center">
+ <img id="selimg" style="width:70%" src="./T&amp;A Luxury_files/14.jpg">
+  </div>
+
+  <div class="col-sm-2 text-center">
+<img id="selimg" style="width:100%" src="./T&amp;A Luxury_files/5.jpg">
+  </div>
+  <div class="col-sm-2 text-center">
+ <img id="selimg" style="width:100%" src="./T&amp;A Luxury_files/6.jpg">
+  </div>
+   <div class="col-sm-2 text-center">
+<img id="selimg" style="width:100%" src="./T&amp;A Luxury_files/15.jpg">
+  </div>
+ <div class="col-sm-2 text-center">
+ <img id="selimg" style="width:100%" src="./T&amp;A Luxury_files/16.jpg">
+  </div>
+  </div>
+  <div class="row">
+ 
+ <div class="col-sm-2 text-center">
+<img id="selimg" style="width:100%" src="./T&amp;A Luxury_files/7.jpg"> 
+  </div>
+ <div class="col-sm-2 text-center">
+ <img id="selimg" style="width:100%" src="./T&amp;A Luxury_files/8.jpg">
+  </div>
+  <div class="col-sm-2 text-center">
+<img id="selimg" style="width:100%" src="./T&amp;A Luxury_files/9.jpg">
+  </div>
+   <div class="col-sm-2 text-center">
+ <img id="selimg" style="width:100%" src="./T&amp;A Luxury_files/4.jpg">
+  </div>
+  
+  
+ <div class="col-sm-2 text-center">
+ <img id="selimg" style="width:100%" src="./T&amp;A Luxury_files/10.jpg">
+  </div>
+  <div class="col-sm-2 text-center">
+<img id="selimg" style="width:100%" src="./T&amp;A Luxury_files/11.jpg">
+  </div>
+  <div class="col-sm-2 text-center">
+ <img id="selimg" style="width:100%" src="./T&amp;A Luxury_files/12.jpg">
+  </div>
+ <div class="col-sm-2 text-center">
+<img id="selimg" style="width:100%" src="./T&amp;A Luxury_files/13.jpg"> 
+  </div>
+
+ </div>
+  
+  </div>
+ </section>
+
+
+        <!-- Back to top -->    
+        <button onclick="gooTo(&#39;#home&#39;);" class="back-to-top" id="back-to-top" style="display: block;"> <i class="fa fa-angle-up"></i> </button>
+
+        <!-- js placed at the end of the document so the pages load faster -->
+         <script src="./T&amp;A Luxury_files/jquery-2.1.4.min.js"></script>
+        <script src="./T&amp;A Luxury_files/bootstrap.min.js"></script>
+
+        <!-- Jquery easing                                                      
+     <script type="text/javascript" src="js/jquery.easing.1.3.min.js"></script>
+--> 
+        <!-- Owl Carousel -->                                                      
+       <!--   <script type="text/javascript" src="js/owl.carousel.min.js"></script>  -->
+
+        <!--sticky header-->
+        <script type="text/javascript" src="./T&amp;A Luxury_files/jquery.sticky.js"></script>
+
+        <!--common script for all pages-->
+        <script src="./T&amp;A Luxury_files/jquery.app.js"></script>
+
+ <script type="text/javascript">
+         
+     // скорость, может иметь дробное значение через точку
+ function gooTo(link){
+	var wiwi = document.body.scrollWidth;
+	 var  ofs=60; 
+
+
+	 V = 0.2;
+    var w = window.pageYOffset,
+        hash = link.replace(/[^#]*(.*)/, '$1');
+        t = document.querySelector(hash).getBoundingClientRect().top,
+	   start = null;
+	   	var sid=link.replace('#', '');
+		if(sid=="contacts") ofs=75;	  
+	sid='l'+sid;
+            var  top = $(hash).offset().top;
+ 
+ 
+		if(wiwi!=736 && wiwi!=414) $('body,html').animate({scrollTop: top-120}, 500);
+		
+if(wiwi==736)$('body,html').animate({scrollTop: (top-ofs)}, 500);
+	
+	if(wiwi==1349 && link=="#contacts" )$('body,html').animate({scrollTop: (top+20)}, 500);
+	if(wiwi==414)
+{
+	//alert(link);
+	if(link=="#contacts") ofs=80;
+if(link=="#pricing") ofs=-140;
+if(link=="#features") ofs=-40;
+	$('body,html').animate({scrollTop: (top-ofs)}, 500);
+}
+	
+	document.getElementById('lhome').style.background='none';
+	
+	document.getElementById('lfeatures').style.background='none';
+	document.getElementById('lpricing').style.background='none';
+	document.getElementById('lclients').style.background='none';
+	document.getElementById('lcontacts').style.background='none';
+	
+	document.getElementById(sid).style.background='#2E2C7E';
+	document.getElementById(sid).focus();
+	
+    return false;
+  }
+
+        </script>
+		
+		
+		
+		
+<script type="text/javascript">
+$(document).ready(function(){
+
+// CSSMap;
+$("#map-continents").CSSMap({
+  "size": 960,
+  "tooltips": "floating-top-right",
+  "responsive": "auto",
+  "tapOnce": true,
+  onClick: function(e){// SAMPLE VARS;
+var rLink = e.children("A").eq(0).attr("href"),
+    rText = e.children("A").eq(0).text(),
+    rClass = e.attr("class").split(" ")[0];
+
+// YOUR CUSTOM FUNCTIONS GOES HERE;
+//alert(rText);
+document.getElementById('box2').style.display="block";
+document.getElementById('selname').innerHTML=rText;
+document.getElementById('direct').value=rText;
+document.getElementById("selimg").src="./images/"+rText+".jpg";
+if(rText=="Африка")document.getElementById('selprice').innerHTML='Туры от 200$';
+if(rText=="Азия")document.getElementById('selprice').innerHTML='Туры от 150$';
+if(rText=="Австралия")document.getElementById('selprice').innerHTML='Туры от 790$';
+if(rText=="Европа")document.getElementById('selprice').innerHTML='Туры от 90&#8364';
+if(rText=="Северная Америка")document.getElementById('selprice').innerHTML='Туры от 650$';
+if(rText=="Южная Америка")document.getElementById('selprice').innerHTML='Туры от 550$';
+
+
+}
+});
+
+});
+
+
+
+
+</script>
+<script src="./T&amp;A Luxury_files/js" async="" defer=""></script>
+
+    
+	 <script src="./T&amp;A Luxury_files/jquery-2.0.3.min.js"></script>
+
+    <script src="./T&amp;A Luxury_files/ajax-form.js"></script>
+	<script src="./T&amp;A Luxury_files/jquery.min.js"></script>
+        <script src="./T&amp;A Luxury_files/bootstrap.min(1).js"></script>
+<script type="text/javascript" src="./T&amp;A Luxury_files/jquery.cssmap.min.js"></script>
+
+
+<!--<script type="text/javascript" src="includes/script.js"></script> -->
+
+
+</body></html>

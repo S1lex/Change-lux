@@ -1,0 +1,22 @@
+
+.main2 {
+    background: rgb(105, 105, 113)!important;
+    }
+.applicationButton {
+    transition: 0.2s;
+}
+
+.applicationButton:hover {
+    transform: translateY(-7px);
+    transition: ease-out 0.3s;
+}
+
+@media (max-width: 806px) and (min-width: 768px) {
+#companyinfo2 {
+    width: none!important;
+}
+}
+
+h4 a {
+    color:white!important;
+}

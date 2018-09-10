@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- CSSMap STYLESHEET - CONTINENTS -->
+<link rel="stylesheet" type="text/css" href="cssmap-continents/cssmap-continents.css" media="screen" />
+<meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+  <!-- CSSMap - Continents -->  
+<div id="map-continents">
+ <ul class="continents">
+  <li class="c1"><a href="#africa">Африка</a></li>
+  <li class="c2"><a href="#asia">Азия</a></li>
+  <li class="c3"><a href="#australia">Австралия</a></li>
+  <li class="c4"><a href="#europe">Европа</a></li>
+  <li class="c5"><a href="#north-america">Северная Америка</a></li>
+  <li class="c6"><a href="#south-america">Южная Америка</a></li>
+ </ul>
+</div>
+<form method="post" action="form.php">
+  <div id="continent">--Континент не выбран</div>
+  <div id="price">200</div>
+  <input type="text" name="name" required="" placeholder="Ваше имя">
+  <input type="text" name="phone" required="" placeholder="Ваш телефон">
+  <input id="direct" type="text" name="direct" hidden="">
+  <input type="submit" value="Хочу" name="">
+</form>
+<!-- END OF THE CSSMap - Continents -->
+<!-- jQuery -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- CSSMap SCRIPT -->
+<script type="text/javascript" src="https://cssmapsplugin.com/5/jquery.cssmap.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+// CSSMap;
+$("#map-continents").CSSMap({
+  "size": 1450,
+  "tooltips": "floating-top-center",
+  "responsive": "auto",
+  onClick: function(e) {
+    // SAMPLE VARS;
+ var rLink = e.children("A").eq(0).attr("href"),
+ rText = e.children("A").eq(0).text(),
+ rClass = e.attr("class").split(" ")[0];
+
+// YOUR CUSTOM FUNCTIONS GOES HERE;
+$('#continent').text(rText);
+$('#direct').val(rText);
+  }
+});
+// END OF THE CSSMap;
+
+});
+</script>
+</body>
+</html>
