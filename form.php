@@ -1,13 +1,13 @@
 <?php
-if(strlen($_POST['name1'])>0) {
+if(isset($_POST['name1'])) {
 	$name = trim(urldecode(htmlspecialchars($_POST['name1'])));
 	$mail = trim(urldecode(htmlspecialchars($_POST['mail'])));
 	$phone = trim(urldecode(htmlspecialchars($_POST['phone1'])));
 	$myMail = ($mail == "" ? "" : "Моя электронная почта: ".$mail.". ");
 	$subject = "=?utf-8?B?".base64_encode("Путешествие!")."?=";
-	$headers = "From m.shaxov@inbox.ru\r\nReply-to: tavor.max@gmail.com\r\nContent-type:text/plain; chahset=utf-8\r\n";
+	$headers = "From tavor.max@gmail.com\r\nReply-to: tavor.max@gmail.com\r\nContent-type:text/plain; chahset=utf-8\r\n";
 	if (mail("php123testmail@gmail.com", $subject, "Пожалуйста, подберите мне тур! Меня зовут $name. $myMail, мой телефонный номер: $phone", $headers)) echo "Ваш запрос отправлен, ожидайте звонка!";
-} elseif(strlen($_POST['name2'])>0) {
+} elseif(isset($_POST['name2'])) {
 	$name = trim(urldecode(htmlspecialchars($_POST['name2'])));
 	$phone = trim(urldecode(htmlspecialchars($_POST['phone'])));
 	$subject = "=?utf-8?B?".base64_encode("Путешествие!")."?=";
@@ -15,7 +15,7 @@ if(strlen($_POST['name1'])>0) {
 	$wantTo = ($direct == 'Я пока не определился(лась) с направлением' ? '' : $direct);
 	$headers = "From tavor.max@gmail.com\r\nReply-to: tavor.max@gmail.com\r\nContent-type:text/plain; chahset=utf-8\r\n";
 	if (mail("php123testmail@gmail.com", $subject, "Я хочу поехать в: ".$wantTo.". Меня зовут ".$name." а мой номер телефона: ".$phone, $headers)) echo "Ваш запрос отправлен, ожидайте звонка!";
-} elseif (strlen($_POST['name3'])>0) {
+} elseif (isset($_POST['name3'])) {
 	$name = trim(urldecode(htmlspecialchars($_POST['name3'])));
 	$phone = trim(urldecode(htmlspecialchars($_POST['phone3'])));
 	$subject = "=?utf-8?B?".base64_encode("Путешествие!")."?=";
